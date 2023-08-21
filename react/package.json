@@ -1,0 +1,53 @@
+{
+  "name": "stock-wave",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server -p 3333 -d 1000 server.json"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.0.0",
+    "@mui/material": "^5.11.2",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "date-fns": "^2.30.0",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.7",
+    "react-input-mask": "^2.0.4",
+    "react-router-dom": "^6.8.1",
+    "react-toastify": "^9.1.1",
+    "styled-components": "^5.3.6",
+    "yup": "^1.0.2"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/date-fns": "^2.6.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "json-server": "^0.17.3",
+    "prettier": "^2.8.4",
+    "vite": "^4.2.0"
+  }
+}

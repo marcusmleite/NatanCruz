@@ -1,0 +1,87 @@
+{
+  "usuarios": {
+    "email": "vitor@vitor.com",
+    "document": "52118238851",
+    "fullname": "Vitor Rubim",
+    "birthdate": "110602002",
+    "password": "123",
+    "confirmPassword": "123"
+  },
+  "login": {
+    "id_usuario": "76671818146531150772",
+    "dt_nasc_aluno": "2023-04-06T09:25:46-03:00",
+    "dt_reg_aluno": "2000-12-03T16:19:43-03:00",
+    "moedas_aluno": 301,
+    "nivel_aluno": "EASY",
+    "nome_usuario": "Ralph Brock",
+    "email_usuario": "bu@kiginu.mh"
+  },
+  "nivel": [
+    "Iniciante",
+    "Intermediário",
+    "Avançado"
+  ],
+  "modulos": {
+    "first": [
+      {
+        "id_modulo": "65571818036531150661",
+        "nome_modulo": "Introdução ao IPO",
+        "nivel_modulo": "EASY",
+        "imagem_modulo": "../../assets/level-easy.svg"
+      },
+      {
+        "id_modulo": "54471818147531180550",
+        "nome_modulo": "Documentação",
+        "nivel_modulo": "EASY",
+        "imagem_modulo": "../../assets/prospectus-image-disabled.svg"
+      },
+      {
+        "id_modulo": "98461757227712934981",
+        "nome_modulo": "Preparação",
+        "nivel_modulo": "../../assets/market-vision-disabled.svg"
+      }
+    ],
+    "second": [
+      {
+        "id_modulo": "46997368277994507857",
+        "nome_modulo": "Prospecto",
+        "nivel_modulo": "EASY"
+      }
+    ]
+  },
+  "exercicio": {
+    "id_questao": "53835520203366582590",
+    "pergunta_questao": "O IPO pode fornecer uma oportunidade para uma empresa levantar _ significativo e aumentar seu perfil  público, mas também pode envolver _",
+    "alt_a_questao": "capital",
+    "alt_b_questao": "conta",
+    "alt_c_questao": "custos",
+    "alt_d_questao": "riscos",
+    "tipo_questao": "completar"
+  },
+  "produtos": [
+    {
+      "id_produto": "22466174039035838955",
+      "nome_produto": "AAPL34",
+      "valor_produto": 1000,
+      "imagem_produto": ""
+    },
+    {
+      "id_produto": "71236342817572475582",
+      "nome_produto": "CVCB3",
+      "valor_produto": 900,
+      "imagem_produto": ""
+    },
+    {
+      "id_produto": "61236342817572475583",
+      "nome_produto": "M1TA34",
+      "valor_produto": 2000,
+      "imagem_produto": ""
+    },
+    {
+      "id_produto": "11236342817572475586",
+      "nome_produto": "AMZO34",
+      "valor_produto": 1300,
+      "imagem_produto": ""
+    }
+  ]
+}
