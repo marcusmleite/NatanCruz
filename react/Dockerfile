@@ -1,8 +1,15 @@
-#Build Stage
-FROM eclipse-temurin:17-jdk-alpine
+#Build
+FROM node:17-alpine as builder
+WORKDIR /app
+COPY package.json .
+RUN yarn install
+COPY . .
+RUN yarn run build
 
-VOLUME /tmp
-
-COPY target/*.jar app.jar
-
-ENTRYPOINT ["java","-jar","/app.jar"]
+#Deploy
+FROM nginx:1.19.0
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+COPY --from=builder /app/dist .
+expose 80
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
